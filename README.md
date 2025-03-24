@@ -4,13 +4,9 @@
 Criar um pipeline CI/CD usando Docker, Bash e GitHub Actions para uma aplicação Flask.
 
 ## Tarefas
-1. Completar o **Dockerfile** para criar a imagem corretamente.
-2. Validar a aplicação com o script `test.sh`.
-3. Ajustar o pipeline em `.github/workflows/pipeline.yml` para:
-   - Construir a imagem Docker
-   - Executar os testes
-   - Publicar a imagem no GitHub Container Registry (GHCR)
-   - Simular um deploy (executar em ambiente local mesmo)
+1. Fazer fork deste repositório github para sua conta.
+1. Completar o **Dockerfile** para criar a imagem local python corretamente.
+1. Validar a aplicação com o script `test.sh`. Isto para validar a app localmente.
 
 ## Como testar
 1. Construir e rodar a aplicação localmente:
@@ -22,6 +18,9 @@ Criar um pipeline CI/CD usando Docker, Bash e GitHub Actions para uma aplicaçã
    ```bash
    ./test.sh
    ```
-3. Subir o código para o GitHub e verificar a execução do pipeline.
+3. Subir o código para o GitHub.
+
+Documentação para referencia:
+- Docker para Desenvolvedores
 
 Boa sorte! 🚀
